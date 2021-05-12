@@ -1,0 +1,22 @@
+<!--@author Austin Engel-->
+
+<html>
+    <head>
+        <title>Weather</title>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <link href="/public/assets/styles.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+    <img src="/public/assets/SlightlyCloudyLogo.png" alt="cloudylogo">
+        <h1>My Weather App</h1>
+        <div id="weather">
+            <p>Temperature: <%= qs.temperature%>F</p>
+            <p>Summary: <%= qs.summary%></p>
+            <p>Wind Gust Speed: <%= qs.windGust%> mph</p>
+        </div>
+        </br>
+        <form action="/" method="get">
+            <input type="submit" value="Back">
+        </form>
+    </body>
+</html>
