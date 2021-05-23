@@ -1,6 +1,6 @@
 # Welcome to My Weather App
 
-- Create a rapid api account and copy your key credentials (the api I use is free for the first 100 requests)
+- Create a rapid api account and copy your key credentials (the DarkSkies api that I use is free for the first 100 requests per month)
 - post the key in the "apiCredentials.json" file right after "apiKey:"
     - such as "apiKey:"  `your key here`
 - Start the server with "node server" in the topmost directory.
